@@ -23,8 +23,10 @@ for pair in formatted_list:
     max_letter = int(pair[0][pair[0].find("-") +1:pair[0].find(" ")])
     letter = pair[0][-1]
     password = pair[1]
+
     if min_letter <= password.count(letter) <= max_letter:
         valid_password_count += 1
+
 print(valid_password_count)
 
 # This section solves Part Two.
@@ -35,6 +37,8 @@ for pair in formatted_list:
     position2 = int(pair[0][pair[0].find("-") +1:pair[0].find(" ")]) - 1
     letter = pair[0][-1]
     password = pair[1]
+
     if (password[position1] == letter) ^ (password[position2] == letter):
         valid_password_count += 1
+
 print(valid_password_count)
