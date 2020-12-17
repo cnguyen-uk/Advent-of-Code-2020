@@ -11,7 +11,7 @@ https://adventofcode.com/2020/day/1
 with open('input.txt') as input:
     input_list = input.read().splitlines()
 
-input_list = [int(i) for i in input_list]
+input_list = [int(num) for num in input_list]
 
 # This section solves Part One.
 for i in range(len(input_list)):
