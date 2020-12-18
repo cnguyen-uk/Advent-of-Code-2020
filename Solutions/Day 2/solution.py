@@ -16,7 +16,6 @@ for line in input_list:
     formatted_list.append(line.split(": "))
 
 # This section solves Part One.
-
 valid_password_count = 0
 for pair in formatted_list:
     min_letter = int(pair[0][:pair[0].find("-")])
@@ -30,7 +29,6 @@ for pair in formatted_list:
 print(valid_password_count)
 
 # This section solves Part Two.
-
 valid_password_count = 0
 for pair in formatted_list:
     position1 = int(pair[0][:pair[0].find("-")]) - 1
