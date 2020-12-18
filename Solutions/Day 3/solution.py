@@ -42,7 +42,6 @@ print(trees_hit(1, 3))
 # This section solves Part Two.
 route_list = [[1, 1], [1, 3], [1, 5], [1, 7], [2, 1]]
 trees_hit_product = 1
-
 for route in route_list:
     trees_hit_product *= trees_hit(route[0], route[1])
 print(trees_hit_product)
