@@ -15,3 +15,4 @@ The following are direct links to the solutions for each day:
 - [Day 2](Solutions/Day%202/solution.py)
 - [Day 3](Solutions/Day%203/solution.py)
 - [Day 4](Solutions/Day%204/solution.py)
+- [Day 5](Solutions/Day%205/solution.py)
