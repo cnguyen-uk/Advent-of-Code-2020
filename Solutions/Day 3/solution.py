@@ -27,9 +27,11 @@ for line in input_list:
     copied_line = line*73
     grid.append(copied_line)
 
-# This function returns the trees hit, where the route taken is defined
-# by right n, down m.
 def trees_hit(m, n):
+    """Return the number of trees hit.
+    
+    The route taken is defined by right n, down m.
+    """
     tree_count = 0
     for i in range(((len(grid)-1)//m) + 1):
         if grid[m*i][n*i] == "#":
